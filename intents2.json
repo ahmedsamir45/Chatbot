@@ -1,0 +1,107 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Whats up",
+          "Good morning",
+          "Good evening",
+          "hello",
+          "hey",
+          "what's up"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Good to see you! How may I help you?",
+          "Hi there, how can I assist you?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "cya",
+          "See you later",
+          "Goodbye",
+          "I am Leaving",
+          "Have a Good day",
+          "bye",
+          "i have to go",
+          "gotta go"
+        ],
+        "responses": [
+          "Sad to see you go. Have a great day!",
+          "Talk to you later. Take care!",
+          "Goodbye! Have a wonderful day!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "age",
+        "patterns": [
+          "how old",
+          "how old are you",
+          "what is your age",
+          "how old are you",
+          "age?"
+        ],
+        "responses": [
+          "I am a virtual assistant, so I don't have an age!",
+          "I'm an AI-powered bot, so age doesn't apply to me!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "what is your name",
+          "what should I call you",
+          "whats your name?",
+          "who are you?"
+        ],
+        "responses": [
+          "You can call me CallBot.",
+          "I'm CallBot!",
+          "I'm your friendly CallBot."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Id like to ask something",
+          "what can you do",
+          "can you help me?",
+          "can i tell you something"
+        ],
+        "responses": [
+          "I'm here to help you! How can I assist you today?",
+          "I can help you with a wide range of inquiries. What do you need assistance with?",
+          "I'm here to assist you. Please let me know how I can help."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "customer_service",
+        "patterns": [
+          "I have a question about my order",
+          "I need assistance with a product",
+          "Can you help me with a billing issue?",
+          "I want to provide feedback",
+          "I need technical support",
+          "Can you transfer me to a live agent?"
+        ],
+        "responses": [
+          "Sure, I can assist you with that. Please provide me with more details about your question or issue.",
+          "Of course! I'm here to help. Please let me know the specific problem or question you have.",
+          "I'll do my best to assist you. Please provide me with more information about your request."
+        ],
+        "context_set": ""
+      }
+    ]
+  }
